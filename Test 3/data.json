@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1, 
+        "name": "Chicken", 
+        "price": 20
+    },
+    {
+        "id": 2,
+        "name": "Beef",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "name": "Pork",
+        "price": 25
+    },
+    {
+        "id": 4,
+        "name": "Turkey",
+        "price": 20
+    },
+    {
+        "id": 5, 
+        "name": "Ham",
+        "price": 30
+    },
+    {
+        "id": 6,
+        "name": "Salmon",
+        "price": 25
+    },
+    {
+        "id": 7,
+        "name": "Tuna",
+        "price": 20
+    },
+    {
+        "id": 8,
+        "name": "Lobster",
+        "price": 30
+    },
+    {
+        "id": 9,
+        "name": "Chips",
+        "price": 25
+    },
+    {
+        "id": 10,
+        "name": "Beer",
+        "price": 20
+    },
+    {
+        "id": 11,
+        "name": "Wine",
+        "price": 30
+    },
+    {
+        "id": 12,
+        "name": "Whisky",
+        "price": 25
+    }
+]
