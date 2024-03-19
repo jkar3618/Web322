@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/MyServer/public/css/main.css">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Lego Collection</h1>
+            <ul class="flex">
+                <li class="mr-4"><a href="/" class="hover:text-gray-300">Home</a></li>
+                <li><a href="/about" class="hover:text-gray-300">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mx-auto py-8">
+        <div class="hero p-8 bg-blue-500 text-white mb-8">
+            <h2 class="text-3xl font-bold mb-4">Welcome to Lego Collection!</h2>
+            <p class="mb-4">Explore our collection of Lego sets and start building!</p>
+            <a href="/lego/sets" class="btn">Explore Lego Sets</a>
+        </div>
+        <div class="grid grid-cols-3 gap-8">
+            <!-- Hard-coded Lego sets -->
+            <div class="card">
+                <h3 class="font-bold text-lg mt-2">Lego Set 1</h3>
+                <p class="text-sm">Description about Lego Set 1</p>
+                <a href="/lego/sets/001-1" class="btn">View Set</a>
+            </div>
+            <div class="card">
+
+                <h3 class="font-bold text-lg mt-2">Lego Set 2</h3>
+                <p class="text-sm">Description about Lego Set 2</p>
+                <a href="/lego/sets/002-1" class="btn">View Set</a>
+            </div>
+            <div class="card">
+                <h3 class="font-bold text-lg mt-2">Lego Set 3</h3>
+                <p class="text-sm">Description about Lego Set 3</p>
+                <a href="/lego/sets/003-1" class="btn">View Set</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
